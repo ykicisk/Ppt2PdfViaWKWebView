@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFAF60D0244AC29E004F949D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF60CF244AC29E004F949D /* AppDelegate.swift */; };
+		DFAF60D2244AC29E004F949D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF60D1244AC29E004F949D /* SceneDelegate.swift */; };
+		DFAF60D5244AC29E004F949D /* Ppt2PdfViaWKWebView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFAF60D3244AC29E004F949D /* Ppt2PdfViaWKWebView.xcdatamodeld */; };
+		DFAF60D7244AC29E004F949D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF60D6244AC29E004F949D /* ContentView.swift */; };
+		DFAF60D9244AC2A3004F949D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAF60D8244AC2A3004F949D /* Assets.xcassets */; };
+		DFAF60DC244AC2A3004F949D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAF60DB244AC2A3004F949D /* Preview Assets.xcassets */; };
+		DFAF60DF244AC2A3004F949D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFAF60DD244AC2A3004F949D /* LaunchScreen.storyboard */; };
+		DFAF60EA244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF60E9244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests.swift */; };
+		DFAF60F5244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF60F4244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFAF60E6244AC2A3004F949D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFAF60C4244AC29E004F949D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFAF60CB244AC29E004F949D;
+			remoteInfo = Ppt2PdfViaWKWebView;
+		};
+		DFAF60F1244AC2A3004F949D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFAF60C4244AC29E004F949D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFAF60CB244AC29E004F949D;
+			remoteInfo = Ppt2PdfViaWKWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFAF60CC244AC29E004F949D /* Ppt2PdfViaWKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ppt2PdfViaWKWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAF60CF244AC29E004F949D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFAF60D1244AC29E004F949D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFAF60D4244AC29E004F949D /* Ppt2PdfViaWKWebView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ppt2PdfViaWKWebView.xcdatamodel; sourceTree = "<group>"; };
+		DFAF60D6244AC29E004F949D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFAF60D8244AC2A3004F949D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFAF60DB244AC2A3004F949D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFAF60DE244AC2A3004F949D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFAF60E0244AC2A3004F949D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFAF60E5244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ppt2PdfViaWKWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAF60E9244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ppt2PdfViaWKWebViewTests.swift; sourceTree = "<group>"; };
+		DFAF60EB244AC2A3004F949D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFAF60F0244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ppt2PdfViaWKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAF60F4244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ppt2PdfViaWKWebViewUITests.swift; sourceTree = "<group>"; };
+		DFAF60F6244AC2A3004F949D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFAF60C9244AC29E004F949D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAF60E2244AC2A3004F949D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAF60ED244AC2A3004F949D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFAF60C3244AC29E004F949D = {
+			isa = PBXGroup;
+			children = (
+				DFAF60CE244AC29E004F949D /* Ppt2PdfViaWKWebView */,
+				DFAF60E8244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests */,
+				DFAF60F3244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests */,
+				DFAF60CD244AC29E004F949D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFAF60CD244AC29E004F949D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFAF60CC244AC29E004F949D /* Ppt2PdfViaWKWebView.app */,
+				DFAF60E5244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests.xctest */,
+				DFAF60F0244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFAF60CE244AC29E004F949D /* Ppt2PdfViaWKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				DFAF60CF244AC29E004F949D /* AppDelegate.swift */,
+				DFAF60D1244AC29E004F949D /* SceneDelegate.swift */,
+				DFAF60D6244AC29E004F949D /* ContentView.swift */,
+				DFAF60D8244AC2A3004F949D /* Assets.xcassets */,
+				DFAF60DD244AC2A3004F949D /* LaunchScreen.storyboard */,
+				DFAF60E0244AC2A3004F949D /* Info.plist */,
+				DFAF60D3244AC29E004F949D /* Ppt2PdfViaWKWebView.xcdatamodeld */,
+				DFAF60DA244AC2A3004F949D /* Preview Content */,
+			);
+			path = Ppt2PdfViaWKWebView;
+			sourceTree = "<group>";
+		};
+		DFAF60DA244AC2A3004F949D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFAF60DB244AC2A3004F949D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFAF60E8244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFAF60E9244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests.swift */,
+				DFAF60EB244AC2A3004F949D /* Info.plist */,
+			);
+			path = Ppt2PdfViaWKWebViewTests;
+			sourceTree = "<group>";
+		};
+		DFAF60F3244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFAF60F4244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests.swift */,
+				DFAF60F6244AC2A3004F949D /* Info.plist */,
+			);
+			path = Ppt2PdfViaWKWebViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFAF60CB244AC29E004F949D /* Ppt2PdfViaWKWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFAF60F9244AC2A3004F949D /* Build configuration list for PBXNativeTarget "Ppt2PdfViaWKWebView" */;
+			buildPhases = (
+				DFAF60C8244AC29E004F949D /* Sources */,
+				DFAF60C9244AC29E004F949D /* Frameworks */,
+				DFAF60CA244AC29E004F949D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ppt2PdfViaWKWebView;
+			productName = Ppt2PdfViaWKWebView;
+			productReference = DFAF60CC244AC29E004F949D /* Ppt2PdfViaWKWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFAF60E4244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFAF60FC244AC2A3004F949D /* Build configuration list for PBXNativeTarget "Ppt2PdfViaWKWebViewTests" */;
+			buildPhases = (
+				DFAF60E1244AC2A3004F949D /* Sources */,
+				DFAF60E2244AC2A3004F949D /* Frameworks */,
+				DFAF60E3244AC2A3004F949D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFAF60E7244AC2A3004F949D /* PBXTargetDependency */,
+			);
+			name = Ppt2PdfViaWKWebViewTests;
+			productName = Ppt2PdfViaWKWebViewTests;
+			productReference = DFAF60E5244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFAF60EF244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFAF60FF244AC2A3004F949D /* Build configuration list for PBXNativeTarget "Ppt2PdfViaWKWebViewUITests" */;
+			buildPhases = (
+				DFAF60EC244AC2A3004F949D /* Sources */,
+				DFAF60ED244AC2A3004F949D /* Frameworks */,
+				DFAF60EE244AC2A3004F949D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFAF60F2244AC2A3004F949D /* PBXTargetDependency */,
+			);
+			name = Ppt2PdfViaWKWebViewUITests;
+			productName = Ppt2PdfViaWKWebViewUITests;
+			productReference = DFAF60F0244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFAF60C4244AC29E004F949D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Yohei Iseki";
+				TargetAttributes = {
+					DFAF60CB244AC29E004F949D = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					DFAF60E4244AC2A3004F949D = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = DFAF60CB244AC29E004F949D;
+					};
+					DFAF60EF244AC2A3004F949D = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = DFAF60CB244AC29E004F949D;
+					};
+				};
+			};
+			buildConfigurationList = DFAF60C7244AC29E004F949D /* Build configuration list for PBXProject "Ppt2PdfViaWKWebView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFAF60C3244AC29E004F949D;
+			productRefGroup = DFAF60CD244AC29E004F949D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFAF60CB244AC29E004F949D /* Ppt2PdfViaWKWebView */,
+				DFAF60E4244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests */,
+				DFAF60EF244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFAF60CA244AC29E004F949D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAF60DF244AC2A3004F949D /* LaunchScreen.storyboard in Resources */,
+				DFAF60DC244AC2A3004F949D /* Preview Assets.xcassets in Resources */,
+				DFAF60D9244AC2A3004F949D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAF60E3244AC2A3004F949D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAF60EE244AC2A3004F949D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFAF60C8244AC29E004F949D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAF60D5244AC29E004F949D /* Ppt2PdfViaWKWebView.xcdatamodeld in Sources */,
+				DFAF60D0244AC29E004F949D /* AppDelegate.swift in Sources */,
+				DFAF60D7244AC29E004F949D /* ContentView.swift in Sources */,
+				DFAF60D2244AC29E004F949D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAF60E1244AC2A3004F949D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAF60EA244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAF60EC244AC2A3004F949D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAF60F5244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFAF60E7244AC2A3004F949D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFAF60CB244AC29E004F949D /* Ppt2PdfViaWKWebView */;
+			targetProxy = DFAF60E6244AC2A3004F949D /* PBXContainerItemProxy */;
+		};
+		DFAF60F2244AC2A3004F949D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFAF60CB244AC29E004F949D /* Ppt2PdfViaWKWebView */;
+			targetProxy = DFAF60F1244AC2A3004F949D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFAF60DD244AC2A3004F949D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFAF60DE244AC2A3004F949D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFAF60F7244AC2A3004F949D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFAF60F8244AC2A3004F949D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFAF60FA244AC2A3004F949D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ppt2PdfViaWKWebView/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ppt2PdfViaWKWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.nodoame.Ppt2PdfViaWKWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFAF60FB244AC2A3004F949D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ppt2PdfViaWKWebView/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ppt2PdfViaWKWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.nodoame.Ppt2PdfViaWKWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFAF60FD244AC2A3004F949D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ppt2PdfViaWKWebViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.nodoame.Ppt2PdfViaWKWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ppt2PdfViaWKWebView.app/Ppt2PdfViaWKWebView";
+			};
+			name = Debug;
+		};
+		DFAF60FE244AC2A3004F949D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ppt2PdfViaWKWebViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.nodoame.Ppt2PdfViaWKWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ppt2PdfViaWKWebView.app/Ppt2PdfViaWKWebView";
+			};
+			name = Release;
+		};
+		DFAF6100244AC2A3004F949D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ppt2PdfViaWKWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.nodoame.Ppt2PdfViaWKWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ppt2PdfViaWKWebView;
+			};
+			name = Debug;
+		};
+		DFAF6101244AC2A3004F949D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ppt2PdfViaWKWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.nodoame.Ppt2PdfViaWKWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ppt2PdfViaWKWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFAF60C7244AC29E004F949D /* Build configuration list for PBXProject "Ppt2PdfViaWKWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFAF60F7244AC2A3004F949D /* Debug */,
+				DFAF60F8244AC2A3004F949D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFAF60F9244AC2A3004F949D /* Build configuration list for PBXNativeTarget "Ppt2PdfViaWKWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFAF60FA244AC2A3004F949D /* Debug */,
+				DFAF60FB244AC2A3004F949D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFAF60FC244AC2A3004F949D /* Build configuration list for PBXNativeTarget "Ppt2PdfViaWKWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFAF60FD244AC2A3004F949D /* Debug */,
+				DFAF60FE244AC2A3004F949D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFAF60FF244AC2A3004F949D /* Build configuration list for PBXNativeTarget "Ppt2PdfViaWKWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFAF6100244AC2A3004F949D /* Debug */,
+				DFAF6101244AC2A3004F949D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFAF60D3244AC29E004F949D /* Ppt2PdfViaWKWebView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFAF60D4244AC29E004F949D /* Ppt2PdfViaWKWebView.xcdatamodel */,
+			);
+			currentVersion = DFAF60D4244AC29E004F949D /* Ppt2PdfViaWKWebView.xcdatamodel */;
+			path = Ppt2PdfViaWKWebView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFAF60C4244AC29E004F949D /* Project object */;
+}

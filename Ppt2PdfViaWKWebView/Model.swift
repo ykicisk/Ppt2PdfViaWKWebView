@@ -44,17 +44,11 @@ extension UIPrintPageRenderer {
                 
         UIGraphicsBeginPDFContextToData(pdfData, self.paperRect, nil)
         
-        // 1ページごとに空白ページが挟まるため、(n+1)/2が真のページ数
-        let realNumberOfPages = (self.numberOfPages + 1) / 2
-        self.prepare(forDrawingPages: NSMakeRange(0, realNumberOfPages))
+        self.prepare(forDrawingPages: NSMakeRange(0, self.numberOfPages))
         
         let printRect = UIGraphicsGetPDFContextBounds()
 
         for pdfPage in 0..<self.numberOfPages {
-            // 空白ページは飛ばす
-            if pdfPage % 2 == 1 {
-                continue
-            }
             UIGraphicsBeginPDFPage()
             self.drawPage(at: pdfPage, in: printRect)
         }

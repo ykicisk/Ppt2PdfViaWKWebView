@@ -1,6 +1,6 @@
 # Ppt2PdfViaWKWebView
 
-A sample for converting PowerPoint files into `PDFDocument` via `WKWebView` .
+A sample for converting a PowerPoint file to `PDFDocument` via `WKWebView` .
 
 | Original (`WKWebView`) | Converted (`PDFDocument`) |
 |:--|:--|

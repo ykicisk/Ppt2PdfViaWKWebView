@@ -18,5 +18,5 @@ A sample for converting `WKWebView` to `PDFDocument`.
 
 ## P.S.
 
-I put converting logic into [Model.swift](./Ppt2PdfViaWKWebView/Model.swift).
+I put converting logic into [MyWebView.swift](./Ppt2PdfViaWKWebView/MyWebView.swift) and [Model.swift](./Ppt2PdfViaWKWebView/Model.swift).
 

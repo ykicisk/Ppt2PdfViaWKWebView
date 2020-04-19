@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  Ppt2PdfViaWKWebView
-//
-//  Created by 井関洋平 on 2020/04/18.
-//  Copyright © 2020 Yohei Iseki. All rights reserved.
-//
-
 import UIKit
 import SwiftUI
 

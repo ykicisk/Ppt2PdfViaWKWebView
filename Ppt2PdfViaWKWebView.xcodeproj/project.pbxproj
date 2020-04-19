@@ -16,6 +16,9 @@
 		DFAF60DF244AC2A3004F949D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFAF60DD244AC2A3004F949D /* LaunchScreen.storyboard */; };
 		DFAF60EA244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF60E9244AC2A3004F949D /* Ppt2PdfViaWKWebViewTests.swift */; };
 		DFAF60F5244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF60F4244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests.swift */; };
+		DFAF6103244AC4E3004F949D /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF6102244AC4E3004F949D /* MyWebView.swift */; };
+		DFAF6107244AD659004F949D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF6106244AD659004F949D /* Model.swift */; };
+		DFAF6109244AD9D9004F949D /* MyPDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF6108244AD9D9004F949D /* MyPDFView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		DFAF60F0244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ppt2PdfViaWKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAF60F4244AC2A3004F949D /* Ppt2PdfViaWKWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ppt2PdfViaWKWebViewUITests.swift; sourceTree = "<group>"; };
 		DFAF60F6244AC2A3004F949D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFAF6102244AC4E3004F949D /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
+		DFAF6106244AD659004F949D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DFAF6108244AD9D9004F949D /* MyPDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPDFView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				DFAF60CF244AC29E004F949D /* AppDelegate.swift */,
 				DFAF60D1244AC29E004F949D /* SceneDelegate.swift */,
 				DFAF60D6244AC29E004F949D /* ContentView.swift */,
+				DFAF6102244AC4E3004F949D /* MyWebView.swift */,
+				DFAF6106244AD659004F949D /* Model.swift */,
+				DFAF6108244AD9D9004F949D /* MyPDFView.swift */,
 				DFAF60D8244AC2A3004F949D /* Assets.xcassets */,
 				DFAF60DD244AC2A3004F949D /* LaunchScreen.storyboard */,
 				DFAF60E0244AC2A3004F949D /* Info.plist */,
@@ -271,7 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFAF60D5244AC29E004F949D /* Ppt2PdfViaWKWebView.xcdatamodeld in Sources */,
+				DFAF6103244AC4E3004F949D /* MyWebView.swift in Sources */,
 				DFAF60D0244AC29E004F949D /* AppDelegate.swift in Sources */,
+				DFAF6109244AD9D9004F949D /* MyPDFView.swift in Sources */,
+				DFAF6107244AD659004F949D /* Model.swift in Sources */,
 				DFAF60D7244AC29E004F949D /* ContentView.swift in Sources */,
 				DFAF60D2244AC29E004F949D /* SceneDelegate.swift in Sources */,
 			);
@@ -440,6 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Ppt2PdfViaWKWebView/Preview Content\"";
+				DEVELOPMENT_TEAM = 7C38YUA4Y9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Ppt2PdfViaWKWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Ppt2PdfViaWKWebView/Preview Content\"";
+				DEVELOPMENT_TEAM = 7C38YUA4Y9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Ppt2PdfViaWKWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
